@@ -1,3 +1,8 @@
+// Isaac Hamilton
+// 1/18/2022
+//n220
+
+
 function setup() {
     var busYellow = "#f2e527";
     var busWheels = 100;
