@@ -2,8 +2,9 @@
 // 1/18/2022
 //n220
 
-
+// creating the function
 function setup() {
+    //variables
     var busYellow = "#f2e527";
     var busWheels = 100;
 
