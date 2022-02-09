@@ -14,7 +14,7 @@ function setup() {
 // create the draw function
 function draw () {
     // background color is black
-    background(0)
+    background(0);
     // create the if statement for the position of the mouse
     console.log(mouseX);
     // if the position of the mouse is LESS than 200 then it will turn RED
