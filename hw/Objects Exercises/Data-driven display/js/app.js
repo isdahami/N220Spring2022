@@ -22,7 +22,13 @@ function setup() {
 function draw() {
     fill(someObj.color);
     background(100);
-    rect(mouseX, mouseY, someObj.height, someObj.width);
+    //rect(mouseX, mouseY, someObj.height, someObj.width);
+    drawObj(someObj);
+}
+
+function drawObj(obj) {
+    rect(mouseX, mouseY, obj.height, obj.width);
+
 }
 
 
