@@ -27,5 +27,20 @@ function setup() {
 }
 
 function draw() {
-    
+    background(100);
+    someObj.x = mouseX
+    someObj.y = mouseY 
+    offset();
+    circle((someObj.x + someObj.offsetX), someObj.y, someObj.size);
+}
+
+function offset() {
+    if(mouseIsPressed == true) {
+        
+        if(someObj.offsetX != 0) {
+            someObj.offsetX = someObj.offsetX - 1
+        } 
+    } else {
+        someObj.offsetX = someObj.offsetX + 1
+    }
 }
