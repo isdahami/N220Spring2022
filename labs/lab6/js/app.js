@@ -21,8 +21,44 @@ for(let i = 0; i < 11; i++) {
 */
 
 // Exercise #2
-
-for(let i = 0; i < 10; i++) {
+/*
+for(let i = 10; i >= 0; i--) {
     console.log(i);
-    break
 }
+*/
+
+// Exercise #3
+/*
+let num = [0, 1];
+let num2 = 0;
+
+
+for(let i = 0; i < 21; i++){
+    num2 = num[i] + num[i + 1];
+    num.push(num2);
+    console.log(num);
+}
+*/
+
+// Exercise #4
+/*
+let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ] 
+
+for(let i = words.length - 1; i >= 0; i--) {
+    let itemAtIndex = words[i];
+    console.log(itemAtIndex);
+    
+}
+*/
+
+// Exercise #5
+/*
+let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ]
+
+for(let i = 0; i < words.length; i++) {
+    let uppercased = words.map(words => words.toUpperCase());
+    console.log(uppercased);
+}
+*/
+
+// Exercise #6
