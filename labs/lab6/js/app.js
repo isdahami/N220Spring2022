@@ -62,3 +62,11 @@ for(let i = 0; i < words.length; i++) {
 */
 
 // Exercise #6
+let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ]
+let wordTwo = "Yeah!";
+
+for(let i = 0; i < words.length; i++){
+    wordTwo = words[i] + wordTwo[i];
+    words.push(wordTwo);
+    console.log(words);
+}
