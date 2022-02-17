@@ -10,6 +10,7 @@ let dvBox = document.getElementById("box");
 // styling 
 dvBox.style.width = "100px";
 dvBox.style.height = "100px";
+dvBox.style.backgroundColor = "blue";
 
 
 
