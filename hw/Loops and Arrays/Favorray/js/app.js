@@ -16,10 +16,15 @@ Then, write a loop that writes to a div element each of them, with the string ",
 let fav = [" burritos", " pineapples", " sleep", " gaming", " reading"];
 // console.log(fav);
 
+
+// begin a for loop, i starts at 0, get the length of fav, add one
 for(let i = 0; i < fav.length; i++) {
     console.log(i);
+    // get the element by id "favThingsZero"
     let favThingsZero = document.getElementById("favThingsZero");
+    // create statement, gets the first string from the array and adds the print to the end,
     let statement = fav[0] + ", is one of my favorite things" 
+    // puts it onto the page
     favThingsZero.innerHTML = statement;
 }
 
