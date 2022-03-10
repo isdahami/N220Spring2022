@@ -28,7 +28,7 @@ for(let i = 10; i >= 0; i--) {
 */
 
 // Exercise #3
-/*
+
 let num = [0, 1];
 let num2 = 0;
 
@@ -38,7 +38,7 @@ for(let i = 0; i < 21; i++){
     num.push(num2);
     console.log(num);
 }
-*/
+
 
 // Exercise #4
 /*
@@ -61,7 +61,9 @@ for(let i = 0; i < words.length; i++) {
 }
 */
 
+
 // Exercise #6
+/*
 let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ]
 let wordTwo = "Yeah!";
 
@@ -70,3 +72,5 @@ for(let i = 0; i < words.length; i++){
     words.push(wordTwo);
     console.log(words);
 }
+
+*/
