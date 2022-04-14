@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- main div that changes color -->
+    <div id="dvOne" data-color="#000000"></div>
+    <!-- div that displays the RBG values -->
+    <div id="dvDisplay"></div>
+
+    <!-- red div -->
+    <div class="dvRed"> 
+        red
+        <button data-num="1" onclick = "changeRed()">+1</button>
+        <button data-num="5" onclick = "changeRed()">+5</button>
+        <button data-num="10" onclick = "changeRed()">+10</button>
+    </div>
+    <!-- blue div -->
+    <div class="dvBlue">
+        blue
+        <button data-num="1" onclick = "changeBlue()">+1</button>
+        <button data-num="5" onclick = "changeBlue()">+5</button>
+        <button data-num="10" onclick = "changeBlue()">+10</button>
+    </div>
+    <!-- green div -->
+    <div class="dvGreen" >
+        green
+        <button data-num="1" onclick = "changeGreen()">+1</button>
+        <button data-num="5" onclick = "changeGreen()">+5</button>
+        <button data-num="10" onclick = "changeGreen()">+10</button>
+    </div>
+
+   
+
+    <script src="js/app.js"></script>
+</body>
+</html>

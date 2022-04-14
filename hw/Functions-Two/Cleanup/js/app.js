@@ -27,6 +27,11 @@ function removeHash() {
     // gets the value
     let userTxt = txtName.value;
 
+    userTxt = userTxt.split("#") 
+    
+    userTxt = userTxt.join('');
+    //console.log(userTxt);
+
     // puts the input on the page, also splits the string 
-   document.getElementById("dvResult").innerHTML = userTxt.split("#");
+   document.getElementById("dvResult").innerHTML = userTxt;
 }
