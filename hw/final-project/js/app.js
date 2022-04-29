@@ -25,7 +25,7 @@ Use setTimeout to keep both face up cards visible for two seconds before hiding 
 */
 
 // creating an array of all the color card options
-const cardArray = [
+let cardArray = [
 {
     name: 'black',
     img: 'css/images/black.png'
